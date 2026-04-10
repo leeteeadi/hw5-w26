@@ -7,8 +7,6 @@ window.addEventListener("load", function () {
 	video.autoplay = false;
 	video.loop = false;
 
-	document.getElementById("volume").textContent = "100%";
-
 	document.getElementById("play").addEventListener("click", function () {
 		video.play();
 		document.getElementById("volume").textContent = video.volume * 100 + "%";
