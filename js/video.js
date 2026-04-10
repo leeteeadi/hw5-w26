@@ -1,4 +1,3 @@
-
 var video;
 
 function updateVolumeDisplay() {
